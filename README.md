@@ -1,11 +1,11 @@
-## Employee CRUD operation
+# Employee CRUD operation
 - I have use react and bootstrap to make this task
-# How to run this projest task in your system-
+## How to run this project in your system-
 1) Clone this repo.
 2) (npm i) in terminal for required dependencies.
 3) (npm start) in terminal for run this project.
 4) (json-server --watch db.json --port 3031) in terminal for running local json server.
-# Screenshots of this task
+## Screenshots of this task-
 - ![emp_crud_1](https://github.com/sjana98/employee-crud-operation/assets/135092592/defc9947-ad20-4e7f-a500-cf3031f655d2)
 - ![emp_crud_2](https://github.com/sjana98/employee-crud-operation/assets/135092592/ec978c21-2a2a-480d-9825-e6cb0946f55e)
 - ![emp_crud_3](https://github.com/sjana98/employee-crud-operation/assets/135092592/9575b9fe-f2da-410d-9e05-0c69490cb378)
