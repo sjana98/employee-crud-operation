@@ -12,6 +12,7 @@ function App() {
            <Route path="/employee/edit/:empid" element={<EmpEdit />} />
         </Routes>
       </Router>
+      
     </div>
   )
 }

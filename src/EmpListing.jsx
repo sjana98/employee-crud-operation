@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { MdModeEdit, MdDelete } from "react-icons/md";
 import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
 import { Modal } from 'react-bootstrap';
@@ -8,7 +8,6 @@ function EmpListing() {
     // Employee Listing start //
     const [empdata, setEmpdatachange] = useState([]);
 
-    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchData = async () => {
@@ -42,7 +41,7 @@ function EmpListing() {
 
 
     // New Employee Add Modal start //
-    const [ID, setId] = useState("");
+    const [ID] = useState("");
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [address, setAddress] = useState("");

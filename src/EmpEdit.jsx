@@ -28,7 +28,7 @@ function EmpEdit() {
             }
         }
         fetchExistingData();
-    }, []);
+    }, [empid]);
 
     // initial fetch data edit   
     const handleSubmit = async (e) => {
