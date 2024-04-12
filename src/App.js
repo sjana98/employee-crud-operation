@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import EmpListing from './EmpListing';
 import EmpEdit from './EmpEdit';
+import DiagonalSumCalculator from './DiagonalSumCalculator';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </Routes>
       </Router>
       
+      <DiagonalSumCalculator />
     </div>
   )
 }
