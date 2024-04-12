@@ -2,37 +2,79 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.divbtn{
+  float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* emp list */
+.table_details{
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn{
+  margin: 2px;;
+}
+
+.addEmpBtn , .deleteEmpBtn{
   color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 5px 8px;
+  border: none;
+  background-color: #28a745;
+}
+.deleteEmpBtn{
+  background-color: #dc3545;
+  margin-right: 8px;
+}
+.plusIcon, .minusIcon{
+  margin-bottom: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+/* add emp */
+.custom-modal {
+  max-width: 400px !important; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-footer {
+  background-color: #ecf0f1 !important; 
+  border-top: none !important; 
+  padding: 15px !important; 
+}
+
+.hiddenInUi{
+  display: none !important;
+}
+
+.btn_save{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 5px 30px;
+  border: none;
+  background-color: #28a745;
+  margin-left: 20px !important;
+  margin-right: 15px !important;
+}
+
+.btn_back{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+/* edit css */
+.heading{
+  border-bottom: 1px solid rgba(216, 215, 215, 0.714);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0px !important;
+}
+
+.btn_container{
+  background-color: #ecf0f1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: right;
 }
